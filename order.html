@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>About - Hannah Bakes - Laura Lella's Final Project Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Suranna&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Suranna&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<h1><a href="index.html">Hannah Bakes</a></h1>
+
+<!-- Side navigation -->
+<div class="sidenav">
+    <a href="about.html">about</a>
+    <a href="gallery.html">gallery</a>
+    <a href="order.html">order</a>  
+    <a href="contact.html">contact</a>
+</div>
+
+<!-- Page content -->
+<p>
+<div class="text">
+To place an order please complete the form below and you wil recieve a quote within 48 hours once our team has reviewed your order.
+<br>
+<br>
+<div class="fcf-body">
+<form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+<br>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+<br>
+        <div class="fcf-form-group">
+            <label for="Date" class="fcf-label">Desired Ready Date</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Date" name="Date" class="fcf-form-control" required>
+                     </div>
+                </div>
+
+<br>
+        <div class="fcf-form-group">
+        Product: 
+        <select name="something">
+         <option value="Google">Cake</option>
+         <option value="Google">Wedding Cake</option>
+         <option value="Bing">24 Cupcakes</option>
+         <option value="Yahoo">24 Macarons</option>
+        </select>
+            </div>
+        </div>
+<br>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Additional Comments</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="3" maxlength="3000"></textarea>
+            </div>
+        </div>
+<br>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+
+    </form>
+    </div>
+
+</p>
+
+</body>
+</html>
